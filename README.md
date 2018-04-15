@@ -5,4 +5,4 @@
 - 저자: 김도균 (steelflea)  
 - 출판사: 인사이트 (www.insightbook.co.kr/)  
 - 저자 블로그: www.dokyun.pe.kr  
-- 책 소개 페이지:  
+- 책 소개 페이지:  http://www.insightbook.co.kr/12735
