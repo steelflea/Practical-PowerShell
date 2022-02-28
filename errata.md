@@ -7,7 +7,7 @@ Thanks to **류태현 님**
 |------|---|---|
 |P9|현재 WMF는 2.0 ~ 5.2 버전까지 릴리스되었다.|현재 WMF는 2.0 ~ 5.1 버전까지 릴리스되었다.|
 |P12|.NET 코어의 최신 버전은 6.0이다.|파워쉘 코어의 최신 버전은 7.1이다.|
-|P33|화면에 출력하는 PowerShell Command인 Write-OutPut의 새로운 별칭인 wop를 만든다|화면에 출력하는 PowerShell Command인 Write-OutPut의 새로운 별칭인 wo를 만든다.|
+|P33|4. 화면에 출력하는 파워셸 명령인 Write-OutPut의 새로운 별칭 Wop를 만든다.<br>New-Alias -Name wo -Value Write-OutPut <br>5. Write-OutPut의 기존 별칭을 wo에서 wop로 변경한다. <br>Set-Alias -Name wop -Value Write-OutPut <br> ........ <br> 7. MyAlias.csv 파일을 메모장으로 열어 마지막 줄의 wop를 wo로 수정한 다음 파일에서 별칭 목록을 가져오기한다.<br>Import-Alias -Path C:\Powershell_Lab\MyAlias.csv -Force|4. 파일의 내용을 읽어 출력하는 파워셸 명령인 Get-Content의 새로운 별칭 gec를 만든다.<br>New-Alias -Name gec – Value Get-Content<br>5. gec의 기존 별칭 대상을 Get-Content에서 Get-Credential로 변경한다.<br>Set-Alias -Name gec -Value Get-Credential <br> ........ <br> 7. MyAlias.csv 파일을 메모장으로 열어 마지막 줄의 gec를 gcr로 수정한 다음 이 파일에서 별칭 목록을 다시 가져온다. <br> Import-Alias -Path C:\PowerShell_Lab\MyAlias.csv -Force <br><br> 기존 gec 별칭이 변경되지 않고 새로운 gcr 별칭이 만들어진다. 가져오기는 기존 별칭 자체는 변경하지 않으며 그 별칭의 대상만 변경한다. 별칭을 수정하고 가져오기하더라도 수정이 아니라 새로운 별칭으로 만들어진다.|
 |P77|구문 형식 Sort-Object [-Property] <개체[]>] [-Descending] [-CaseSensitive] | 구문 형식 Sort-Object [[-Property] <개체[]>] [-Descending] [-CaseSensitive] |
 |P87, LN6|3	/ 경고출력	/ 경고 레코드	/ Write-Debug	/ 3>&1 | 3	/ 경고출력	/ 경고 레코드	/ Write-Warning	/ 3>&1 |
 |P87, LN8|5	/ 디버그출력	/ 디버그 레코드	/ Write-Warning	/ 5>&1 | 5	/ 디버그출력	/ 디버그 레코드	/ Write-Debug	/ 5>&1  |
